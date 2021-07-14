@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mbtvaddons" name="[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Addons Repository" version="1.0.0" provider-name="meirb88">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/meirb88/Addons/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/meirb88/Addons/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/meirb88/Addons/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Addons Repository</summary>
+        <description>MBTV build addons repo</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
